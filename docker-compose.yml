@@ -1,0 +1,6 @@
+version: '2.0'
+
+services:
+  artway-api-eureka:
+    build: .
+    image: artway/eureka:v2.0
