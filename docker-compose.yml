@@ -4,3 +4,5 @@ services:
   artway-api-eureka:
     build: .
     image: artway/eureka:v2.0
+    ports:
+      - 8761:8761
